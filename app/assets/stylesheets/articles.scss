@@ -1,3 +1,52 @@
 // Place all the styles related to the articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+$grey: #F8F8F8;
+
+header {
+    background-color: $grey ;
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+        color: #5E5E5E;
+    }
+
+    #new-article {
+        display: inline-block;
+        padding: 5px 10px;
+        border: 1px solid #5E5E5E;
+        border-radius: 4px;
+
+        &:hover {
+          text-decoration: none;
+          color:#2e2e2e;
+          border-color: #2e2e2e;
+        }
+    }
+}
+
+.container {
+    width: 60vw;
+}
+
+article {
+    margin-top: 40px;
+    h2 {
+        color: #337ab7;
+        font-family: Serif;
+    }
+    h2 a {
+      color: #337ab7;
+      font-family: Serif;
+
+      &:hover {
+        color: #23527C;
+      }
+    }
+
+}

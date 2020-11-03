@@ -1,0 +1,9 @@
+
+<article>
+<h2><%= @article.title %> </h2>
+<p><%= @article.content %></p>
+</article>
+
+<p>Here <% link_to ('<i class="fas fa-pencil-alt"></i>').html_safe , edit_article_path %></p>
+
+<p><%= link_to "Back to articles", articles_path %></p>
